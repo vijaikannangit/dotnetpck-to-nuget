@@ -36,7 +36,9 @@ jobs:
           dotnet-version: 3.1.x     #7.0.306
   
       - name: Build
-        run: dotnet build $SOLUTION --configuration $BUILD_CONFIG -p:Version=$BUILD_VERSION --no-restore
+        run: |
+         dotnet build $SOLUTION --configuration $BUILD_CONFIG -p:Version=$BUILD_VERSION --no-restore
+         .build\GetBuildVersion.psm1
   
       - name: Run tests
         run: dotnet test /p:Configuration=$env:BUILD_CONFIG --no-restore --no-build --verbosity normal
@@ -44,3 +46,6 @@ jobs:
       - name: Publish
         if: startsWith(github.ref, 'refs/heads/release')
         run: nuget push **\*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_API_KEY}}        
+
+       #./build.ps1 -Path /tmp/samplemodule
+       # Publish-Module -Path /tmp/samplemodule -NuGetApiKey $env:NUGET_KEY -Verbose
