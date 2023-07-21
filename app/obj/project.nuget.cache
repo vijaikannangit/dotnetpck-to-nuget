@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0/Vfmh+DTc+dPe0YdSMCaC4Lt0n8HXamrt8VogpYlyNe5XD8BOgfLPveR+L9HURuwWMns/uBXPcLccH3/ALSBg==",
+  "success": true,
+  "projectFilePath": "C:\\Vijaik\\Freelancing\\dotnet-nuget\\example\\app\\app.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VijaiK\\.nuget\\packages\\sample1-vijkan\\1.0.0\\sample1-vijkan.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

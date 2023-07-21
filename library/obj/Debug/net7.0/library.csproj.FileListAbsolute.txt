@@ -1,0 +1,12 @@
+C:\Vijaik\Freelancing\dotnet-nuget\example\library\bin\Debug\net7.0\library.deps.json
+C:\Vijaik\Freelancing\dotnet-nuget\example\library\bin\Debug\net7.0\library.dll
+C:\Vijaik\Freelancing\dotnet-nuget\example\library\bin\Debug\net7.0\library.pdb
+C:\Vijaik\Freelancing\dotnet-nuget\example\library\obj\Debug\net7.0\library.csproj.AssemblyReference.cache
+C:\Vijaik\Freelancing\dotnet-nuget\example\library\obj\Debug\net7.0\library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Vijaik\Freelancing\dotnet-nuget\example\library\obj\Debug\net7.0\library.AssemblyInfoInputs.cache
+C:\Vijaik\Freelancing\dotnet-nuget\example\library\obj\Debug\net7.0\library.AssemblyInfo.cs
+C:\Vijaik\Freelancing\dotnet-nuget\example\library\obj\Debug\net7.0\library.csproj.CoreCompileInputs.cache
+C:\Vijaik\Freelancing\dotnet-nuget\example\library\obj\Debug\net7.0\library.dll
+C:\Vijaik\Freelancing\dotnet-nuget\example\library\obj\Debug\net7.0\refint\library.dll
+C:\Vijaik\Freelancing\dotnet-nuget\example\library\obj\Debug\net7.0\library.pdb
+C:\Vijaik\Freelancing\dotnet-nuget\example\library\obj\Debug\net7.0\ref\library.dll

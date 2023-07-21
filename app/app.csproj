@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RestoreSources>$(RestoreSources);C:\Vijaik\Freelancing\dotnet-nuget\example\library\bin\Debug;https://api.nuget.org/v3/index.json</RestoreSources>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sample1-VijKan" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
